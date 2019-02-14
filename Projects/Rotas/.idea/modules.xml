@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Rotas.iml" filepath="$PROJECT_DIR$/.idea/Rotas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cadastro/.idea/cadastro.iml" filepath="$PROJECT_DIR$/../cadastro/.idea/cadastro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modelos/.idea/modelos.iml" filepath="$PROJECT_DIR$/../modelos/.idea/modelos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rel-um-para-um/.idea/rel-um-para-um.iml" filepath="$PROJECT_DIR$/../rel-um-para-um/.idea/rel-um-para-um.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../relumparamuitos/.idea/relumparamuitos.iml" filepath="$PROJECT_DIR$/../relumparamuitos/.idea/relumparamuitos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../validacao/.idea/validacao.iml" filepath="$PROJECT_DIR$/../validacao/.idea/validacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vendas/.idea/vendas.iml" filepath="$PROJECT_DIR$/../vendas/.idea/vendas.iml" />
+    </modules>
+  </component>
+</project>

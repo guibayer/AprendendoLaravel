@@ -1,0 +1,5 @@
+Route::get('/nome/{nome}', function($nome){
+
+})->where('n', '[0-9]+');
+
+** O primeiro parâmetro é a variável a ser avaliada e o segundo é uma expressão regular que a avalia

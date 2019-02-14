@@ -1,0 +1,85 @@
+Como ver todas as opções do php artisan?
+
+#	php artisan
+
+Para criar um projeto básico denominado projeto1:
+#	composer create-project --prefer-dist laravel/laravel projeto1
+
+Iniciar o servidor do laravel(Artisan) que vem nativamente instalado:
+#	php artisan serve
+
+Como ver todas as rotas que estão em funcionamento
+
+# 	php artisan route:list
+
+Como criar um novo controlador simples
+
+#	php artisan make:controler
+
+--> para incrementar usar flag --resource --> deixa a base do CRUD pronta --> utilizar
+funcão resource em rotas que ele cria todas as rotas necessárias para o CRUD
+
+
+********************************************************************
+
+Para utilizar o bootstrap 5 no Laravel:
+
+# npm install
+
+Depois ir em resources->js-> app.js -> não vamos utilizar Vue(apagar a variável)
+
+Comando para compilar:
+#	npm run dev
+
+Incluir no head:
+
+#	<link href="{{asset('css/app.css')}}" rel="stylesheet">
+
+Incluir no final do body:
+
+#	<script src="{{asset('js/app.js')}}" type="text/javascript"></script>
+
+
+Trabalhando com migrations:
+
+-- CRIAR DATABASE COM O FORMATO ascii_general_ci
+
+Configurar informações do arquivo .env
+
+criar migrations
+
+-- CRIAR DATABASE COM O FORMATO ascii_general_ci
+**procurar criar tabelas com o nome no plural(final s normalmente)-> para futuramente ser mais fácil
+modificar os dados presente nas tabelas
+
+php artisan make:migration criar_tabela_produtos  (--create=produtos --> cria tabela produtos)
+
+php artisan migrate --> executa todas as migrations criadas
+
+Para retornar uma versão:
+
+php artisan migrate:rollback
+
+Criação de Seeders:
+
+php artisan make:seeder  
+
+para executar os seeders:
+
+php artisan db:seed
+
+Preparando o ambiente para o Eloquent(classe de modelos para comunicação do DB)
+
+Comando para criar o primeiro modelo:
+
+php artisan make:model Categoria(nome sempre no singular->laravel ira buscar a tabela CategoriaS) -m
+
+Para administrar os dados dentro do laravel:
+
+php artisan tinker
+
+Ex: App\Categoria::all()
+$cat = new App\Categoria()
+$cat->nome = "nova categoria"
+$cat->save()
+
