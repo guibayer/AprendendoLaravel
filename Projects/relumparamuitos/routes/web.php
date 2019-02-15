@@ -84,17 +84,29 @@ Route::get('/adicionarproduto', function(){
     return $p->toJson();
 });
 
-Route::get('/adicionarproduto', function(){
-    $cat = Categoria::find(1);
-    $p = new Produto;
-    $p->nome = "Meu novo produto";
-    $p->estoque = 10;
-    $p->preco = 100;
-    //Assim caso tenha o id:
-    //$p->categoria_id = 3;
-    //Caso tenha a instância:
-    $p->categoria()->associate($cat);
-    $p->save();
+Route::get('/removercategoriadoproduto', function(){
+    $p = Produto::find(6);
+    if(isset($p)) {
+        $p->categoria()->dissociate();
+        $p->save();
 
-    return $p->toJson();
+        return $p->toJson();
+    }
+    return '';
+});
+
+Route::get('/adicionarproduto/{catid}', function($catid){
+    $cat = Categoria::with('produtos')->find($catid);
+    $p = new Produto;
+    $p->nome = "Meu novo produto adicionado";
+    $p->estoque = 20;
+    $p->preco = 170;
+
+    if(isset($cat)){
+        $cat->produtos()->save($p);
+    }
+    //Reload do cat(como ele foi carregado antes do save se n for feito o reload o novo produto
+    // adicionado não irá aparecer na tela)
+    $cat->load('produtos');
+    return $cat->toJson();
 });

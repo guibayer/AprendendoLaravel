@@ -100,5 +100,6 @@
     <orderEntry type="module" module-name="validacao" />
     <orderEntry type="module" module-name="rel-um-para-um" />
     <orderEntry type="module" module-name="relumparamuitos" />
+    <orderEntry type="module" module-name="rel-muitos-para-muitos" />
   </component>
 </module>
