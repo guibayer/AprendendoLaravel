@@ -11,6 +11,8 @@ class ProjetosSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('projetos')->insert(['nome' => 'Sistema de Alocação de Recursos', 'estimativa_horas' => 200]);
+        DB::table('projetos')->insert(['nome' => 'Sistema de Bibliotecas', 'estimativa_horas' => 300]);
+        DB::table('projetos')->insert(['nome' => 'Sistema de Vendas', 'estimativa_horas' => 400]);
     }
 }

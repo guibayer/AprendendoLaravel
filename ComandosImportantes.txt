@@ -83,3 +83,8 @@ $cat = new App\Categoria()
 $cat->nome = "nova categoria"
 $cat->save()
 
+
+Middlewares:
+Presente em praticamente todas as aplicações
+Fazem o intermédio da comunicação da aplicação
+Reagir na chegada e resposta de uma requisição

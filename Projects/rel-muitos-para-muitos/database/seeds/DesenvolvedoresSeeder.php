@@ -11,6 +11,8 @@ class DesenvolvedoresSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('desenvolvedores')->insert(['nome' => 'Bernardo', 'cargo' => 'Analista Pleno']);
+        DB::table('desenvolvedores')->insert(['nome' => 'Arthur', 'cargo' => 'Analista Senior']);
+        DB::table('desenvolvedores')->insert(['nome' => 'Carlos', 'cargo' => 'Programador Jr']);
     }
 }
