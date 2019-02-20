@@ -13,4 +13,10 @@
 |
 */
 
+Route::get('/usuarioss', 'UsuariosControlador@index')->middleware('primeiro', 'segundo');
+
 Route::get('/usuarios', 'UsuariosControlador@index');
+
+Route::get('/terceiro', function(){
+    return 'Passou pelo terceiro middleware';
+})->middleware('terceiro:joao');

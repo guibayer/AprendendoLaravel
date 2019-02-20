@@ -102,5 +102,7 @@
     <orderEntry type="module" module-name="relumparamuitos" />
     <orderEntry type="module" module-name="rel-muitos-para-muitos" />
     <orderEntry type="module" module-name="middlewares" />
+    <orderEntry type="module" module-name="middlewares-login" />
+    <orderEntry type="module" module-name="login-basico" />
   </component>
 </module>

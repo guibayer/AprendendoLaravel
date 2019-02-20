@@ -88,3 +88,6 @@ Middlewares:
 Presente em praticamente todas as aplicações
 Fazem o intermédio da comunicação da aplicação
 Reagir na chegada e resposta de uma requisição
+
+Para criar toda a parte de autenticação(login):
+php artisan make:auth
