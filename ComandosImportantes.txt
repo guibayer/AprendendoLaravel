@@ -91,3 +91,16 @@ Reagir na chegada e resposta de uma requisição
 
 Para criar toda a parte de autenticação(login):
 php artisan make:auth
+
+
+Parte de upload de arquivos:
+Linka os arquivos que estão na pasta storage(local(por default, é possível q esse storage seja diferente
+ex: externo(S3))))
+php artisan storage:link
+
+Lembrar que para salvar não se usa o input e fim o file
+
+---------------------- Começando com AngularJS -------------------------------
+
+npm install -g @angular/cli
+

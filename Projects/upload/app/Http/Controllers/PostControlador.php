@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use Illuminate\Support\Facades\Storage;
 
 class PostControlador extends Controller
 {
@@ -26,7 +27,7 @@ class PostControlador extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -37,7 +38,13 @@ class PostControlador extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new Post();
+        $post->email = $request->input('email');
+        $post->mensagem = $request->input('mensagem');
+        $post->arquivo = $request->file('arquivo')->store('imagens', 'public');
+        $post->save();
+
+        return redirect('/');
     }
 
     /**
@@ -82,6 +89,22 @@ class PostControlador extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Post::find($id);
+        if(isset($post)){
+            $arquivo = $post->arquivo;
+            Storage::disk('public')->delete($arquivo);
+            $post->delete();
+
+        }
+        return redirect('/');
+    }
+
+    public function download($id){
+        $post = Post::find($id);
+        if(isset($post)){
+            $path = Storage::disk('public')->getDriver()->getAdapter()->applyPathPrefix($post->arquivo);
+            return response()->download($path);
+        }
+        return redirect('/');
     }
 }
