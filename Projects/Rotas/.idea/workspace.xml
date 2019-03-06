@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../paginacao/resources/views/indexjs.blade.php" line="126" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="89884016-8301-4c63-b4b7-8d760f2a0b66" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,37 +18,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../middlewares-login/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/../upload/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+            <state relative-caret-position="68">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoAdmin.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../middlewares-login/app/Http/Middleware/ProdutoAdmin.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../upload/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="96">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../middlewares-login/app/Http/Middleware/VerifyCsrfToken.php">
+      <file leaf-file-name="2019_03_06_143243_create_posts_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../upload/database/migrations/2019_03_06_143243_create_posts_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            <state relative-caret-position="255">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoControlador.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../middlewares-login/app/Http/Controllers/ProdutoControlador.php">
+      <file leaf-file-name="PostControlador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../upload/app/Http/Controllers/PostControlador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,47 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../validacao/database/migrations/2019_02_12_022601_create_clientes_table.php" />
-        <option value="$PROJECT_DIR$/../validacao/.env" />
-        <option value="$PROJECT_DIR$/../validacao/resources/views/clientes.blade.php" />
-        <option value="$PROJECT_DIR$/../validacao/routes/web.php" />
-        <option value="$PROJECT_DIR$/../validacao/app/Http/Controllers/ClienteControlador.php" />
-        <option value="$PROJECT_DIR$/../validacao/resources/views/novocliente.blade.php" />
-        <option value="$PROJECT_DIR$/../cadastro/resources/views/layout/app.blade.php" />
-        <option value="$PROJECT_DIR$/../cadastro/app/Http/Controllers/ControladorCategoria.php" />
-        <option value="$PROJECT_DIR$/../cadastro/routes/api.php" />
-        <option value="$PROJECT_DIR$/../cadastro/routes/web.php" />
-        <option value="$PROJECT_DIR$/../cadastro/app/Http/Controllers/ControladorProduto.php" />
-        <option value="$PROJECT_DIR$/../cadastro/resources/views/produtos.blade.php" />
-        <option value="$PROJECT_DIR$/../rel-um-para-um/database/migrations/2019_02_12_230027_create_clientes_table.php" />
-        <option value="$PROJECT_DIR$/../rel-um-para-um/database/migrations/2019_02_12_230721_create_enderecos_table.php" />
-        <option value="$PROJECT_DIR$/../rel-um-para-um/app/Cliente.php" />
-        <option value="$PROJECT_DIR$/../rel-um-para-um/app/Endereco.php" />
-        <option value="$PROJECT_DIR$/../rel-um-para-um/routes/web.php" />
-        <option value="$PROJECT_DIR$/../rel-um-para-um/.env" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/.env" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/database/migrations/2019_02_13_174421_create_categorias_table.php" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/database/migrations/2019_02_13_174552_create_produtos_table.php" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/database/seeds/CategoriaSeeder.php" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/database/seeds/ProdutoSeeder.php" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/app/Produto.php" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/app/Categoria.php" />
-        <option value="$PROJECT_DIR$/../relumparamuitos/routes/web.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/.env" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/database/migrations/2019_02_15_114947_create_desenvolvedors_table.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/database/migrations/2019_02_15_115005_create_projetos_table.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/database/migrations/2019_02_15_115021_create_alocacaos_table.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/DesenvolvedoresSeeder.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/ProjetosSeeder.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/AlocacoesSeeder.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/app/Alocacao.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/app/Desenvolvedor.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/app/Projeto.php" />
-        <option value="$PROJECT_DIR$/../rel-muitos-para-muitos/routes/web.php" />
-        <option value="$PROJECT_DIR$/../middlewares/app/Http/Middleware/PrimeiroMiddleware.php" />
-        <option value="$PROJECT_DIR$/../middlewares/app/Http/Controllers/UsuariosControlador.php" />
         <option value="$PROJECT_DIR$/../middlewares/app/Http/Middleware/SegundoMiddleware.php" />
         <option value="$PROJECT_DIR$/../middlewares/storage/logs/laravel-2019-02-15.log" />
         <option value="$PROJECT_DIR$/../middlewares/storage/logs/laravel-2019-02-19.log" />
@@ -111,6 +76,47 @@
         <option value="$PROJECT_DIR$/../middlewares-login/app/Http/Controllers/ProdutoControlador.php" />
         <option value="$PROJECT_DIR$/../middlewares-login/routes/web.php" />
         <option value="$PROJECT_DIR$/../middlewares-login/app/Http/Middleware/ProdutoAdmin.php" />
+        <option value="$PROJECT_DIR$/../login-basico/.env" />
+        <option value="$PROJECT_DIR$/../login-basico/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../login-basico/app/Http/Controllers/ProdutoControlador.php" />
+        <option value="$PROJECT_DIR$/../login-basico/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/../login-basico/app/Http/Controllers/DepartamentoControlador.php" />
+        <option value="$PROJECT_DIR$/../login-basico/resources/views/usuario.blade.php" />
+        <option value="$PROJECT_DIR$/../login-basico/routes/web.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/database/migrations/2019_02_21_190432_create_admins_table.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/.env" />
+        <option value="$PROJECT_DIR$/../multiusuario/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../login-basico/config/auth.php" />
+        <option value="$PROJECT_DIR$/../login-basico/app/Admin.php" />
+        <option value="$PROJECT_DIR$/../login-basico/resources/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/../login-basico/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/resources/views/admin_login.blade.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/routes/web.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/app/Admin.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/app/Http/Controllers/Auth/AdminLoginController.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/../multiusuario/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/../paginacao/package.json" />
+        <option value="$PROJECT_DIR$/../paginacao/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/../paginacao/resources/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/../paginacao/.env" />
+        <option value="$PROJECT_DIR$/../paginacao/database/seeds/ClientesSeeder.php" />
+        <option value="$PROJECT_DIR$/../paginacao/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/../paginacao/database/migrations/2019_02_27_171707_create_clientes_table.php" />
+        <option value="$PROJECT_DIR$/../paginacao/routes/web.php" />
+        <option value="$PROJECT_DIR$/../paginacao/app/Http/Controllers/ClienteControlador.php" />
+        <option value="$PROJECT_DIR$/../paginacao/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/../paginacao/resources/views/indexjs.blade.php" />
+        <option value="$PROJECT_DIR$/../MeuProjeto/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/../MeuProjeto/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/../MeuProjeto/routes/web.php" />
+        <option value="$PROJECT_DIR$/../upload/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/../upload/database/migrations/2019_03_06_143243_create_posts_table.php" />
+        <option value="$PROJECT_DIR$/../upload/app/Http/Controllers/PostControlador.php" />
+        <option value="$PROJECT_DIR$/../upload/routes/web.php" />
+        <option value="$PROJECT_DIR$/../upload/.env" />
       </list>
     </option>
   </component>
@@ -125,14 +131,21 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/../cadastro/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../paginacao/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../upload/node_modules" />
     <handled-path value="$PROJECT_DIR$/../validacao/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../MeuProjeto/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
       <path value="$PROJECT_DIR$/../cadastro/package.json" />
+      <path value="$PROJECT_DIR$/../login-basico/package.json" />
+      <path value="$PROJECT_DIR$/../middlewares-login/package.json" />
       <path value="$PROJECT_DIR$/../middlewares/package.json" />
       <path value="$PROJECT_DIR$/../modelos/package.json" />
+      <path value="$PROJECT_DIR$/../multiusuario/package.json" />
+      <path value="$PROJECT_DIR$/../paginacao/package.json" />
       <path value="$PROJECT_DIR$/../rel-muitos-para-muitos/package.json" />
       <path value="$PROJECT_DIR$/../rel-um-para-um/package.json" />
       <path value="$PROJECT_DIR$/../relumparamuitos/package.json" />
@@ -238,34 +251,83 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="85" />
-    <option name="width" value="1116" />
-    <option name="height" value="817" />
+    <option name="x" value="-208" />
+    <option name="y" value="236" />
+    <option name="width" value="921" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="login-basico" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rotas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../login-basico" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../upload" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Guilherme Schneider\Desktop\AprendendoLaravel\Projects\paginacao\resources\views" />
+      <recent name="C:\Users\Guilherme Schneider\Desktop\AprendendoLaravel\Projects\multiusuario\app" />
+      <recent name="C:\Users\Guilherme Schneider\Desktop\AprendendoLaravel\Projects\multiusuario\resources\views" />
+      <recent name="C:\Users\Guilherme Schneider\Desktop\AprendendoLaravel\Projects\multiusuario\config" />
+      <recent name="C:\Users\Guilherme Schneider\Desktop\AprendendoLaravel\Projects\login-basico\resources\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -307,15 +369,21 @@
       <workItem from="1550058309631" duration="11143000" />
       <workItem from="1550141071372" duration="3700000" />
       <workItem from="1550229647541" duration="12294000" />
-      <workItem from="1550600057060" duration="10240000" />
+      <workItem from="1550600057060" duration="13643000" />
+      <workItem from="1550775502790" duration="8674000" />
+      <workItem from="1551285858489" duration="7406000" />
+      <workItem from="1551871714074" duration="8207000" />
+      <workItem from="1551881455042" duration="149000" />
+      <workItem from="1551881643526" duration="2280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131945000" />
+    <option name="totallyTimeSpent" value="162064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -324,7 +392,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1376702" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,22 +412,22 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32932332" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -372,352 +440,341 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../multiusuario/app/Exceptions/Handler.php</url>
+          <line>4</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../cadastro/app/Http/Controllers/ControladorCategoria.php">
+    <entry file="file://$PROJECT_DIR$/../login-basico/resources/views/usuario.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cadastro/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cadastro/resources/views/novoproduto.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cadastro/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO43E176CD/produtos.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="175" column="41" lean-forward="true" selection-start-line="175" selection-start-column="41" selection-end-line="176" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cadastro/resources/views/produtos.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="225" column="11" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cadastro/app/Http/Controllers/ControladorProduto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cadastro/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-um-para-um/database/migrations/2019_02_12_230721_create_enderecos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-um-para-um/database/migrations/2019_02_12_230027_create_clientes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-um-para-um/app/Cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-um-para-um/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-um-para-um/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-um-para-um/app/Endereco.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/database/seeds/ProdutoSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/database/migrations/2019_02_13_174421_create_categorias_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/database/migrations/2019_02_13_174552_create_produtos_table.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/database/migrations/2019_02_21_190432_create_admins_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../middlewares-login/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/database/seeds/CategoriaSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/app/Categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../relumparamuitos/app/Produto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/database/migrations/2019_02_15_115005_create_projetos_table.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/database/migrations/2019_02_15_115021_create_alocacaos_table.php">
+    <entry file="file://$PROJECT_DIR$/../middlewares/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../login-basico/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/database/migrations/2019_02_15_114947_create_desenvolvedors_table.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../login-basico/app/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../login-basico/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../login-basico/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="93" column="6" lean-forward="true" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../login-basico/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/ProjetosSeeder.php">
+    <entry file="file://$PROJECT_DIR$/../login-basico/resources/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="112" />
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/AlocacoesSeeder.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="106" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/DatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Http/Controllers/Auth/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="221">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/app/Alocacao.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/database/seeds/DesenvolvedoresSeeder.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/resources/views/admin_login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="170">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/bootstrap/app.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+        <state relative-caret-position="255">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/app/Desenvolvedor.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/resources/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../login-basico/app/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Http/Controllers/Auth/AdminLoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rel-muitos-para-muitos/app/Projeto.php">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Middleware/EncryptCookies.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Middleware/SegundoMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="901">
+          <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
           <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
+            <element signature="e#34#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/storage/logs/laravel-2019-02-15.log">
+    <entry file="file://$PROJECT_DIR$/../multiusuario/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiusuario/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paginacao/resources/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Middleware/PrimeiroMiddleware.php">
+    <entry file="file://$PROJECT_DIR$/../paginacao/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Controllers/UsuariosControlador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/../paginacao/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/storage/logs/laravel-2019-02-19.log">
+    <entry file="file://$PROJECT_DIR$/../paginacao/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="289">
+          <caret line="17" column="30" lean-forward="true" selection-end-line="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Middleware/TerceiroMiddleware.php">
+    <entry file="file://$PROJECT_DIR$/../paginacao/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paginacao/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paginacao/database/seeds/ClientesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paginacao/database/migrations/2019_02_27_171707_create_clientes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paginacao/app/Http/Controllers/ClienteControlador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares/app/Http/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/../paginacao/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paginacao/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paginacao/resources/views/indexjs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MeuProjeto/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MeuProjeto/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MeuProjeto/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="78" column="18" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MeuProjeto/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upload/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upload/database/migrations/2019_03_06_143243_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upload/app/Http/Controllers/PostControlador.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares-login/app/Http/Middleware/VerifyCsrfToken.php">
+    <entry file="file://$PROJECT_DIR$/../upload/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares-login/app/Http/Controllers/ProdutoControlador.php">
+    <entry file="file://$PROJECT_DIR$/../upload/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares-login/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../middlewares-login/app/Http/Middleware/ProdutoAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="96">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -104,5 +104,9 @@
     <orderEntry type="module" module-name="middlewares" />
     <orderEntry type="module" module-name="middlewares-login" />
     <orderEntry type="module" module-name="login-basico" />
+    <orderEntry type="module" module-name="multiusuario" />
+    <orderEntry type="module" module-name="paginacao" />
+    <orderEntry type="module" module-name="MeuProjeto" />
+    <orderEntry type="module" module-name="upload" />
   </component>
 </module>

@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../MeuProjeto/.idea/MeuProjeto.iml" filepath="$PROJECT_DIR$/../MeuProjeto/.idea/MeuProjeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Rotas.iml" filepath="$PROJECT_DIR$/.idea/Rotas.iml" />
       <module fileurl="file://$PROJECT_DIR$/../cadastro/.idea/cadastro.iml" filepath="$PROJECT_DIR$/../cadastro/.idea/cadastro.iml" />
       <module fileurl="file://$PROJECT_DIR$/../login-basico/.idea/login-basico.iml" filepath="$PROJECT_DIR$/../login-basico/.idea/login-basico.iml" />
       <module fileurl="file://$PROJECT_DIR$/../middlewares/.idea/middlewares.iml" filepath="$PROJECT_DIR$/../middlewares/.idea/middlewares.iml" />
       <module fileurl="file://$PROJECT_DIR$/../middlewares-login/.idea/middlewares-login.iml" filepath="$PROJECT_DIR$/../middlewares-login/.idea/middlewares-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/../modelos/.idea/modelos.iml" filepath="$PROJECT_DIR$/../modelos/.idea/modelos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../multiusuario/.idea/multiusuario.iml" filepath="$PROJECT_DIR$/../multiusuario/.idea/multiusuario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../paginacao/.idea/paginacao.iml" filepath="$PROJECT_DIR$/../paginacao/.idea/paginacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rel-muitos-para-muitos/.idea/rel-muitos-para-muitos.iml" filepath="$PROJECT_DIR$/../rel-muitos-para-muitos/.idea/rel-muitos-para-muitos.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rel-um-para-um/.idea/rel-um-para-um.iml" filepath="$PROJECT_DIR$/../rel-um-para-um/.idea/rel-um-para-um.iml" />
       <module fileurl="file://$PROJECT_DIR$/../relumparamuitos/.idea/relumparamuitos.iml" filepath="$PROJECT_DIR$/../relumparamuitos/.idea/relumparamuitos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../upload/.idea/upload.iml" filepath="$PROJECT_DIR$/../upload/.idea/upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/../validacao/.idea/validacao.iml" filepath="$PROJECT_DIR$/../validacao/.idea/validacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vendas/.idea/vendas.iml" filepath="$PROJECT_DIR$/../vendas/.idea/vendas.iml" />
     </modules>
