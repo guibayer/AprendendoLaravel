@@ -104,3 +104,48 @@ Lembrar que para salvar não se usa o input e fim o file
 
 npm install -g @angular/cli
 
+Cria como qualquer outro projeto laravel
+--> ele recomenda criar o projeto angular dentro da pasta: /PROJETO/resources/assets(no meu caso precisei criar ela)
+Para criar a parte angular:
+ng new (nomedoprojeto)
+
+Após a criação do projeto deve entrar na pasta do app e compilar ele com o comando: ng serve
+
+Também é necessário rodar o código para construir toda a parte de js externa: npm run build
+Detalhe: Para consciliarmos o laravel com o angular precisamos setar o output do build para o diretório
+público do laravel.
+Para fazer isso vamos no arquivo package.json e alteramos a parte de scripts:
+"build": "ng build" --> "build": "ng build --output-path=caminho"
+
+Depois criar index.blade.php com a estrutura html e o app-root e scripts que estão no index.html
+que o build do angular criou.
+
+----------------------- Instalando Material Angular -------------------------------
+
+npm install --save @angular/material @angular/cdk @angular/animations hammerjs @angular/flex-layout
+	**flex-layout não faz parte do angular-material mas é um pacote interessante para trabalhar
+	no desenvolvimento dos layouts
+	
+Depois ir no app do angular, src/app/app.module.ts e adicionar(é possível ver os imports na parte
+getting-started do site do angular material):
+
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MatButtonModule} from '@angular/material/button';
+
+E na parte dentro de @ngModoule->imports:
+    BrowserAnimationsModule,
+    MatButtonModule,
+
+Agora em /styles.css iremos importar o tema do angular:
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+Para adicionar os icons do material devemos acrescentar no index.blade.php(disponível na página-> https://material.io/tools/icons/):
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+Substituir tudo que está em app.component.html por:
+<mat-button>OK</mat-button>
+
+Depois de ter feito esses passos executar o build:
+npm run build

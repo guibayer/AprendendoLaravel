@@ -108,5 +108,6 @@
     <orderEntry type="module" module-name="paginacao" />
     <orderEntry type="module" module-name="MeuProjeto" />
     <orderEntry type="module" module-name="upload" />
+    <orderEntry type="module" module-name="lar_angular" />
   </component>
 </module>
