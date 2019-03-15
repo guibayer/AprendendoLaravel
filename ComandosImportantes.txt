@@ -1,3 +1,8 @@
+Corpo do get das rotas: Primeiro argumento == path, segundo argumento a função que deve ser executada
+quando esse path for aberto
+
+-- CRIAR DATABASE COM O FORMATO ascii_general_ci
+
 Como ver todas as opções do php artisan?
 
 #	php artisan
@@ -149,3 +154,27 @@ Substituir tudo que está em app.component.html por:
 
 Depois de ter feito esses passos executar o build:
 npm run build
+
+-->tem um arquivo da udemy que contem todos os imports necessários para o projeto.
+
+
+-------------------------- Criando a Classe Post ----------------------------------------
+
+Criar arquivo post.ts na pasta src/app
+
+Na classe -> quando um atributo tem ? no final eles são opcionais e eles devem estar nos ultimos
+
+Criando um novo componente Post:
+
+ng generate component Post
+
+-->FLEX-LAYOUT=> página interessante: https://tburleson-layouts-demos.firebaseapp.com/#/docs
+
+No nosso caso acrescentamos: <div fxLayout="row" fxLayoutAlign="space-between stretch" >
+** Lembrar de ir dentro do componente que criamos(card) e setar ele também como flex(fxFlex)
+
+--------------------------- Criando o formulário do Post ----------------------------------
+
+ng generate component PostDialog
+
+

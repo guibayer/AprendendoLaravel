@@ -1,4 +1,0 @@
-Corpo do get das rotas: Primeiro argumento == path, segundo argumento a função que deve ser executada
-quando esse path for aberto
-
--- CRIAR DATABASE COM O FORMATO ascii_general_ci
