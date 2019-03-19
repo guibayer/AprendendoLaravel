@@ -178,3 +178,20 @@ No nosso caso acrescentamos: <div fxLayout="row" fxLayoutAlign="space-between st
 ng generate component PostDialog
 
 
+------------- Iniciando parte do laravel p/ integrar com angular ---------------------------
+
+Configurar o .env
+
+**no caso da integração do laravel com angular não trabalhamos com views(arquivo de rotas web.php)
+mas sim só com a de api.php
+
+Começando a parte do angular p/ integrar com a parte api do laravel já criada utilizamos um comando
+para gerar um serviço:
+
+ng generate service Post
+
+**O angular trabalha com o conceito de injetar elementos
+
+--> Podemos ir no modulo do app e setar classes como injetáveis adicionado-as na parte de providers,
+fazendo com que o angular saiba quais classes são injetáveis
+--> Segundo passo é ir no component que iremos utilizar e adicionar esse serviço no construtor

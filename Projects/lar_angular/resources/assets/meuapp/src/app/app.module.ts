@@ -18,6 +18,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PostComponent } from './post/post.component';
 import { PostDialogComponent } from './post-dialog/post-dialog.component';
+import {PostService} from "./post.service";
 
 
 @NgModule({
@@ -47,7 +48,7 @@ import { PostDialogComponent } from './post-dialog/post-dialog.component';
 
     ],
     providers: [
-
+        PostService
     ],
 
     entryComponents:[

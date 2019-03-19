@@ -8,7 +8,5 @@ export class Post {
         public arquivo?: string,
         public id?: number,
         public likes?: number,
-    ){
-
-    }
+    ){    }
 }
