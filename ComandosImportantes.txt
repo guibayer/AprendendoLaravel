@@ -195,3 +195,10 @@ ng generate service Post
 --> Podemos ir no modulo do app e setar classes como injetáveis adicionado-as na parte de providers,
 fazendo com que o angular saiba quais classes são injetáveis
 --> Segundo passo é ir no component que iremos utilizar e adicionar esse serviço no construtor
+
+------------------------ Para parte de e-mail ----------------------------------------------
+
+No caso do google entrar nas configurações da minha conta e gerar uma senha de aplicação
+Após isso rodar o código:
+
+php artisan make:auth
